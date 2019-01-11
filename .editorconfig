@@ -1,0 +1,13 @@
+# http://editorconfig.org
+
+# Top-most editorconfig file
+root = true
+
+# all files
+[*]
+indent_style = space
+indent_size = 4
+
+# powershell files
+[*.{ps1,psm1,psd1}]
+trim_trailing_whitespace = true

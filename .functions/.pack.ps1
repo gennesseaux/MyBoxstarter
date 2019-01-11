@@ -1,0 +1,7 @@
+. "$PSScriptRoot\Decrypt-String.ps1"
+. "$PSScriptRoot\Encrypt-String.ps1"
+. "$PSScriptRoot\Get-EnvironmentVariable.ps1"
+. "$PSScriptRoot\Install-ChocoApp.ps1"
+. "$PSScriptRoot\Install-Chocolatey.ps1"
+. "$PSScriptRoot\Install-ChocoWindowsFeature.ps1"
+. "$PSScriptRoot\Set-EnvironmentVariable.ps1"
