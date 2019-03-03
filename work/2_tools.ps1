@@ -28,6 +28,14 @@ $options = @(
     'Boxstarter::Tools::notepadplusplus=true'
     'Boxstarter::Tools::vlc=true'
     'Boxstarter::Tools::sysinternals=true'
+
+    'Boxstarter::WebTools::sysinternals=true'
+    'Boxstarter::WebTools::wget=true'
+    'Boxstarter::WebTools::curl=true'
+    'Boxstarter::WebTools::putty=true'
+    'Boxstarter::WebTools::winscp=true'
+    'Boxstarter::WebTools::filezilla=true'
+    'Boxstarter::WebTools::postman=true'
 )
 
 # Scripts
