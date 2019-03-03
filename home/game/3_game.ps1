@@ -2,7 +2,7 @@
 #Requires -RunAsAdministrator
 
 # Dot source all functions
-. "$PSScriptRoot\..\.functions\.pack.ps1"
+. "$PSScriptRoot\..\..\.functions\.pack.ps1"
 
 # Chocolatey must be installed
 Install-Chocolatey
