@@ -32,7 +32,7 @@ $scripts = @()
 $packages = @()
 
 # Download my boxstarter bootstrap
-$webClient.DownloadFile('https://raw.githubusercontent.com/AbsCoDes/boxstarter/master/boxstarter.ps1', "$($env:temp)\boxstarter.ps1")
+$webClient.DownloadFile('https://raw.githubusercontent.com/gennesseaux/boxstarter/master/boxstarter.ps1', "$($env:temp)\boxstarter.ps1")
 
 # Start the setup process
 &Invoke-Command -ScriptBlock {

@@ -28,7 +28,7 @@ $options = @(
     'Boxstarter::DevCore::VisualStudioCode=true'
     'Boxstarter::DevCore::VisualStudioCodeExtensions=true'
     'Boxstarter::DevCore::fonts=true'
-    
+
 
     'Boxstarter::DevVs2017::Params=--locale fr-FR'
 
@@ -66,7 +66,7 @@ $packages = @()
 
 # Download my boxstarter bootstrap
 $webClient = New-Object System.Net.WebClient
-$webClient.DownloadFile('https://raw.githubusercontent.com/AbsCoDes/boxstarter/master/boxstarter.ps1', "$($env:temp)\boxstarter.ps1")
+$webClient.DownloadFile('https://raw.githubusercontent.com/gennesseaux/boxstarter/master/boxstarter.ps1', "$($env:temp)\boxstarter.ps1")
 
 # Start the setup process
 &Invoke-Command -ScriptBlock {
