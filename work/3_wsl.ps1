@@ -7,6 +7,7 @@
 # Profiles to install
 $profiles = @(
     'WSL'
+    'WSL-Docker'
 )
 
 # Define options
@@ -15,6 +16,7 @@ $options = @(
     'Boxstarter::End=false'
 
     'Boxstarter::WSL=true'
+    'Boxstarter::WSL-docker=true'
 )
 
 # Scripts
