@@ -17,7 +17,8 @@ $options = @(
     'Boxstarter::Begin=false'
     'Boxstarter::End=false'
 
-    'Boxstarter::WSL=true'
+    'Boxstarter::WSL=false'
+    'Boxstarter::WSL-docker=true'
 )
 
 # Scripts

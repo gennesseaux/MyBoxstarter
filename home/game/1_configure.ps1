@@ -18,6 +18,16 @@ $options = @(
     'Boxstarter::Begin::MicrosoftUpdate=false'
     'Boxstarter::Begin::WindowsUpdate=false'
 
+    'Boxstarter::Essential::Privacy=true'
+    'Boxstarter::Essential::Security=true'
+    'Boxstarter::Essential::Network=true'
+    'Boxstarter::Essential::Service=true'
+    'Boxstarter::Essential::UI=true'
+    'Boxstarter::Essential::UI-Preferences=true'
+    'Boxstarter::Essential::Application=true'
+    'Boxstarter::Essential::RemoteDesktop=true'
+    'Boxstarter::Essential::Remove::Microsoft.OneDrive=true'
+
     'Boxstarter::End=true'
     'Boxstarter::End::MicrosoftUpdate=false'
     'Boxstarter::End::WindowsUpdate=false'

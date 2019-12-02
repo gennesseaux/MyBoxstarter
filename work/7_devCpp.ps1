@@ -22,7 +22,7 @@ $options = @(
     'Boxstarter::End=false'
 
     'Boxstarter::DevCore::git=true'
-    'Boxstarter::DevCore::git-fork=true'
+    'Boxstarter::DevCore::git-fork=false'
     'Boxstarter::DevCore::poshgit=true'
     'Boxstarter::DevCore::winmerge=true'
     'Boxstarter::DevCore::cmder=true'

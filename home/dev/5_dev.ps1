@@ -18,15 +18,15 @@ $options = @(
     'Boxstarter::End=false'
 
     'Boxstarter::DevCore::git=true'
-    'Boxstarter::DevCore::git-fork=true'
+    'Boxstarter::DevCore::git-fork=false'
     'Boxstarter::DevCore::poshgit=true'
     'Boxstarter::DevCore::winmerge=true'
-    'Boxstarter::DevCore::cmder=true'
+    'Boxstarter::DevCore::cmder=false'
     'Boxstarter::DevCore::wget=true'
     'Boxstarter::DevCore::curl=true'
     'Boxstarter::DevCore::cmake=true'
-    'Boxstarter::DevCore::VisualStudioCode=true'
-    'Boxstarter::DevCore::VisualStudioCodeExtensions=true'
+    'Boxstarter::DevCore::VisualStudioCode=false'
+    'Boxstarter::DevCore::VisualStudioCodeExtensions=false'
     'Boxstarter::DevCore::fonts=true'
 )
 

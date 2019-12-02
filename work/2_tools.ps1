@@ -35,7 +35,7 @@ $options = @(
     'Boxstarter::WebTools::putty=true'
     'Boxstarter::WebTools::winscp=true'
     'Boxstarter::WebTools::filezilla=true'
-    'Boxstarter::WebTools::postman=true'
+    'Boxstarter::WebTools::postman=false'
 )
 
 # Scripts

@@ -27,6 +27,7 @@ $packages = @(
     'lastpass-chrome'
     'teamviewer'
     'intel-dsa'
+    'samsung-magician'
 )
 
 # Download my boxstarter bootstrap
