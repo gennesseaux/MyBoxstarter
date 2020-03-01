@@ -1,5 +1,4 @@
 #Requires -version 3
-#Requires -RunAsAdministrator
 
 # Chocolatey must be installed
 . "$PSScriptRoot\.choco.ps1"
@@ -7,7 +6,6 @@
 # Profiles to install
 $profiles = @(
     'WSL'
-    'WSL-Docker'
 )
 
 # Define options

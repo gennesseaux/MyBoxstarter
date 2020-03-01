@@ -1,5 +1,4 @@
 #Requires -version 3
-#Requires -RunAsAdministrator
 
 # Dot source all functions
 . "$PSScriptRoot\..\.functions\.pack.ps1"
